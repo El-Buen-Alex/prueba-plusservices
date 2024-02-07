@@ -14,7 +14,12 @@
 
             </div>
             <div id="question-box-wrapper">
-                
+
+            </div>
+            <div class="button-save-wrapper">
+                <button
+                    onclick="save()"
+                >Guardar</button>
             </div>
         </div>
 

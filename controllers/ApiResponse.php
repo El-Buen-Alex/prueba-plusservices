@@ -29,10 +29,14 @@ class ApiResponse{
     }
 
     public function addErrorMessage($message, $title='An error was ocurred', $code=500){
+        $this->status=false;
+        $this->code=$code;
         $this->addMessage($title, $message, $code, 'error');
     }
 
-    public function addErrorSuccess($message, $title='Ok!', $code=200){
+    public function addSuccessMessage($message, $title='Ok!', $code=200){
+        $this->status=true;
+        $this->code=$code;
         $this->addMessage($title, $message, $code, 'success');
 
     }
