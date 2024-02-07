@@ -13,6 +13,9 @@
             <div id="combo-box-wrapper">
 
             </div>
+            <div id="question-box-wrapper">
+                
+            </div>
         </div>
 
         <script src="assets/js/pollService.js"></script>
