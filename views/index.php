@@ -9,5 +9,13 @@
     </head>
 
     <body>
+        <div id="main-form">
+            <div id="combo-box-wrapper">
+
+            </div>
+        </div>
+
+        <script src="assets/js/pollService.js"></script>
+        <script src="assets/js/pollView.js"></script>
     </body>
 </html>

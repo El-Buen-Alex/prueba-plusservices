@@ -1,5 +1,5 @@
 <?php 
-class Conexion{
+class Connection{
     public static function getConexion(){
         $database_username = 'root';
         $database_password = '1234';
