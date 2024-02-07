@@ -11,6 +11,12 @@ class PollController extends Controller {
         require_once 'views/index.php';
     }
 
+    public function results() {
+        $pollModel=new PollModel();
+        $results=$pollModel->getResults();
+        require_once 'views/estadisticas.php';
+    }
+
     public function create(){
         try{
             $pollModel=new PollModel();

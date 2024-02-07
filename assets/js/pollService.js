@@ -135,7 +135,7 @@ function sendToSave(data){
         if (request.readyState == 4) {
             const jsonObj = JSON.parse(request.responseText);
             if(jsonObj.status){
-
+                window.location.href = 'index.php?c=poll&a=results';
             }else{
                 alert(jsonObj.message.message)
             }
